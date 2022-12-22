@@ -1,0 +1,56 @@
+node-xtend (4.0.2-3) unstable; urgency=medium
+
+  * Team upload
+  * Add the nodejs:native as b-d
+
+ -- Bastien Roucariès <rouca@debian.org>  Sat, 18 Sep 2021 21:47:55 +0000
+
+node-xtend (4.0.2-2) unstable; urgency=medium
+
+  [ Debian Janitor ]
+  * Set upstream metadata fields: Bug-Submit.
+  * Remove obsolete fields Contact, Name from debian/upstream/metadata
+    (already present in machine-readable debian/copyright).
+  * Update standards version to 4.5.0, no changes needed.
+
+  [ Bastien Roucariès ]
+  * Team upload
+  * MA: foreign
+
+ -- Bastien Roucariès <rouca@debian.org>  Sat, 18 Sep 2021 21:05:40 +0000
+
+node-xtend (4.0.2-1) unstable; urgency=medium
+
+  * Team upload
+  * Add upstream/metadata
+  * Bump debhelper compatibility level to 12
+  * Declare compliance with policy 4.4.1
+  * Add "Rules-Requires-Root: no"
+  * Add debian/gbp.conf
+  * New upstream version 4.0.2
+  * Drop useless patch
+  * Switch test and install to pkg-js-tools
+  * Update description (Closes: #942090)
+
+ -- Xavier Guimard <yadd@debian.org>  Sat, 23 Nov 2019 13:09:41 +0100
+
+node-xtend (4.0.1-2) unstable; urgency=medium
+
+  * Team upload
+  * Bump debhelper compatibility to 11
+  * Declare compliance with policy 4.3.0
+  * Add test
+  * Add node-tape in build dependencies
+  * Bump debhelper compatibility to 11
+  * Declare compliance with policy 4.3.0
+  * Update debian/copyright link format
+  * Change section to javascript
+  * Install mutable.js
+
+ -- Xavier Guimard <yadd@debian.org>  Fri, 04 Jan 2019 17:03:46 +0100
+
+node-xtend (4.0.1-1) unstable; urgency=low
+
+  * Initial release (Closes: #842139)
+
+ -- Sarath M S <debian@sarathms.me>  Thu, 27 Oct 2016 10:12:20 +0530
